@@ -1,0 +1,383 @@
+/* extra large screen */
+@media (min-width: 1024px) {
+  .main-row {
+    height: 82vh;
+  }
+}
+/* large screen */
+@media (min-width: 501px) {
+  .hamburger {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .desktop-nav {
+    padding: 0 9vw;
+    padding-top: 40px;
+  }
+  .desktop-nav .logo {
+    font-size: 2.5vw;
+  }
+  .desktop-nav .nav-links ul li a {
+    font-size: 2vw;
+  }
+  .main-row .left-section img {
+    width: 30vw;
+  }
+  .right-info .greet {
+    font-size: 2vw;
+  }
+  .right-info .name {
+    font-size: 4.5vw;
+    text-align: center;
+  }
+  .right-info .position h4 {
+    font-size: 3vw;
+  }
+  .button-main .download-btn button {
+    font-size: 1.5vw;
+  }
+  .button-main .contact-btn button {
+    font-size: 1.5vw;
+  }
+  .main-section .main-row {
+    height: 83vh;
+  }
+  .about {
+    height: 100vh;
+  }
+  .experienc-sec {
+    height: 100vh;
+  }
+  .project-sec {
+    height: auto;
+  }
+  .contact-container {
+    width: 51vw;
+  }
+  .left-cont img {
+    width: 4vw;
+  }
+  .left-cont span {
+    font-size: 1.7vw;
+  }
+  .right-cont img {
+    width: 4vw;
+  }
+  .right-cont span {
+    font-size: 1.7vw;
+  }
+  /* .about-main {
+    flex-direction: column;
+  } */
+  .about-left {
+    justify-content: center;
+  }
+  .about-right {
+    justify-content: center;
+  }
+  .about-img img {
+    width: 29vw;
+  }
+  .main-row .left-section {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .main-row .right-section {
+    justify-content: center;
+    margin: 0;
+  }
+  .about {
+    /* height: 116vh; */
+    height: 1079px;
+  }
+  .about-main {
+    margin-top: 39px;
+  }
+  .about-sec {
+    margin-right: 4vw;
+  }
+
+  .container-first {
+    width: 25vw;
+  }
+  .container-sec {
+    width: 25vw;
+  }
+  .container-first p {
+    font-size: 1.3vw;
+  }
+  .container-sec p {
+    font-size: 1.3vw;
+  }
+  .para p {
+    font-size: 1.4vw;
+  }
+  .exp-container {
+    margin: auto;
+    justify-content: center;
+  }
+  .experienc-sec .left-exp {
+    width: 43vw;
+    height: 55vh;
+    padding: 4vw 2vw;
+  }
+  .dev-title-left h2 {
+    font-size: 1.8vw;
+  }
+  .dev-title-right h2 {
+    font-size: 1.8vw;
+  }
+  .tech {
+    gap: 3vw;
+    margin: 5vw;
+  }
+  .left-tech {
+    gap: 2vw;
+  }
+  .left-tech img {
+    width: 3vw;
+  }
+  .tech-title {
+    font-size: 1.7vw;
+  }
+  .right-tech img {
+    width: 3vw;
+  }
+  .experienc-sec .right-exp {
+    width: 43vw;
+    height: 55vh;
+    padding: 4vw 2vw;
+  }
+  .cat {
+    width: 29vw;
+
+    padding: 2.5vw;
+  }
+  .cat h2 {
+    font-size: 2vw;
+  }
+  .proj-btn button {
+    padding: 2vw 2vw;
+    font-size: 1.6vw !important;
+  }
+}
+/* medium screen */
+@media (max-width: 768px) {
+  .main-section .main-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 24px;
+  }
+  .main-row .left-section {
+    width: 100%;
+  }
+  .main-row .right-section {
+    width: 100%;
+  }
+  .exp-container {
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+  }
+  .about-main {
+    flex-direction: column;
+  }
+  .para {
+    width: 77vw;
+    margin: auto;
+  }
+  .desktop-nav .logo {
+    font-size: 4vw;
+  }
+  .desktop-nav .nav-links ul li a {
+    font-size: 2.3vw;
+  }
+  .desktop-nav {
+    padding: 0 3vw;
+    padding-top: 40px;
+  }
+  .para p {
+    font-size: 2vw;
+  }
+  .about {
+    height: auto;
+  }
+  .about-right {
+    margin-top: 21px;
+  }
+  .container-first {
+    width: 40vw;
+  }
+  .container-sec {
+    width: 40vw;
+  }
+  .experienc-sec {
+    height: auto;
+  }
+  .experienc-sec .left-exp {
+    width: 79vw;
+  }
+  .experienc-sec .right-exp {
+    width: 79vw;
+  }
+  .contact-container {
+    width: 82vw;
+  }
+  nav li a {
+    font-size: 3vw;
+  }
+  .footer-sec .copyright span {
+    font-size: 2vw;
+  }
+  .container-first h3 {
+    font-size: 2.7vw;
+  }
+  .container-first p {
+    font-size: 2vw;
+  }
+  .container-sec h3 {
+    font-size: 2.7vw;
+  }
+  .container-sec p {
+    font-size: 2vw;
+  }
+}
+/* small screen */
+@media (max-width: 500px) {
+  .nav-links {
+    display: none;
+  }
+  .desktop-nav {
+    padding: 0 13vw;
+    padding-top: 40px;
+  }
+  .desktop-nav .logo {
+    font-size: 6vw;
+  }
+  .left-section img {
+    width: 60vw !important;
+  }
+  .main-section .main-row {
+    height: auto;
+  }
+  .right-info .greet {
+    font-size: 4vw;
+  }
+  .right-info .name {
+    font-size: 5.5vw !important;
+  }
+  .right-info .position h4 {
+    font-size: 7.5vw !important;
+  }
+  .button-main .download-btn button {
+    font-size: 3.5vw;
+  }
+  .button-main .contact-btn button {
+    font-size: 3.5vw;
+  }
+  .about-img img {
+    width: 68vw;
+  }
+  .container-first {
+    width: 45vw;
+  }
+  .container-sec {
+    width: 45vw;
+  }
+  .container-first h3 {
+    font-size: 5vw;
+  }
+  .container-first p {
+    font-size: 3vw;
+  }
+  .container-sec h3 {
+    font-size: 5vw;
+  }
+  .container-sec p {
+    font-size: 3vw;
+  }
+  .para p {
+    font-size: 3vw;
+  }
+  .about {
+    height: auto;
+  }
+  .para {
+    width: 90vw;
+  }
+  .dev-title-left h2 {
+    font-size: 4.8vw;
+  }
+  .dev-title-right h2 {
+    font-size: 4.8vw;
+  }
+  .tech-title {
+    font-size: 3.7vw;
+  }
+  .left-tech img {
+    width: 7vw;
+  }
+  .right-tech img {
+    width: 7vw;
+  }
+  .experienc-sec .left-exp {
+    width: 87vw;
+  }
+  .experienc-sec .right-exp {
+    width: 87vw;
+  }
+  .tech {
+    gap: 6vw;
+    margin: 40px 0;
+  }
+  .project-sec {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .cat:nth-child(-n + 3) {
+    width: 92vw !important;
+    margin: auto;
+  }
+  .project-cat {
+   flex-direction: column;
+  }
+  .cat h2 {
+    font-size: 7vw;
+}
+.proj-btn button {
+  padding: 3vw 3vw;
+  font-size: 5.6vw !important;
+}
+.contact-container {
+  width: 90vw;
+}
+.left-cont img {
+  width: 11vw;
+}
+.left-cont span {
+  font-size: 2.7vw;
+}
+.right-cont img {
+  width: 9vw;
+}
+.right-cont span {
+  font-size: 2.7vw;
+}
+nav li a {
+  font-size: 4vw;
+}
+.footer-sec .copyright span {
+  font-size: 3vw;
+}
+.main-section .main-row{
+  margin-top: 24px;
+}
+.hamburger-menu ul li a{
+  color: black!important;
+}
+}
